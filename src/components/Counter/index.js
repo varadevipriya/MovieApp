@@ -1,21 +1,21 @@
-import {Component} from 'react'
+// import {Component} from 'react'
 
-import './index.css'
+// import './index.css'
 
-class Counter extends Component {
-  render() {
-    return (
-      <div>
-        <button type="button" onClick={this.onDecrement}>
-          -
-        </button>
-        <div>0</div>
-        <button type="button" onClick={this.onIncrement}>
-          +
-        </button>
-      </div>
-    )
-  }
-}
+// class Counter extends Component {
+//   render() {
+//     return (
+//       <div>
+//         <button type="button" onClick={this.onDecrement}>
+//           -
+//         </button>
+//         <div>0</div>
+//         <button type="button" onClick={this.onIncrement}>
+//           +
+//         </button>
+//       </div>
+//     )
+//   }
+// }
 
-export default Counter
+// export default Counter
