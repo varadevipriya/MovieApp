@@ -40,7 +40,7 @@ class Login extends Component {
 
           const onSubmitForm = async event => {
             event.preventDefault()
-
+   if(username === 'priya' && password === '1234567'){
             const url = 'https://apis.ccbp.in/login'
             const userDetails = {
               username,
@@ -66,6 +66,7 @@ class Login extends Component {
           if (jwtToken !== undefined) {
             return <Redirect to="/" />
           }
+
 
           return (
             <div className="login-container">
